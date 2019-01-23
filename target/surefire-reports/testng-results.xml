@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="7527" started-at="2019-01-22T11:50:35Z" finished-at="2019-01-22T11:50:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.automation.runMe.runMe@174d20a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="7527" started-at="2019-01-22T11:50:35Z" finished-at="2019-01-22T11:50:43Z">
+      <class name="org.automation.runMe.runMe">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.automation.runMe.runMe@174d20a]" name="setUpClass" is-config="true" duration-ms="201" started-at="2019-01-22T17:20:35Z" finished-at="2019-01-22T17:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.automation.runMe.runMe@174d20a]" name="feature" duration-ms="6944" started-at="2019-01-22T17:20:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-22T17:20:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check single checkbox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="reportsetup()[pri:0, instance:org.automation.runMe.runMe@174d20a]" name="reportsetup" is-config="true" duration-ms="94" started-at="2019-01-22T17:20:43Z" finished-at="2019-01-22T17:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsetup -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.automation.runMe.runMe@174d20a]" name="tearDownClass" is-config="true" duration-ms="222" started-at="2019-01-22T17:20:43Z" finished-at="2019-01-22T17:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.automation.runMe.runMe -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
